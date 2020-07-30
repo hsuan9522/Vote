@@ -1,0 +1,33 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  height: 100vh;
+}
+
+
+.MuiFormControlLabel-root{
+  margin: 15px 0px;
+  border: 1px solid rgb(129, 121, 121);
+  padding: 4px 100px 4px 4px;
+  text-align: left;
+  border-radius: 10px;
+  &:hover{
+    border: 2px solid  rgb(82, 79, 79);
+  }
+}
+
+.bar {
+  margin: 20px 0px 30px 0px;
+}
+.title {
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+}
